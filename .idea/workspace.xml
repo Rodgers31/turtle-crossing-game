@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1212a300-257d-4102-b39a-7ae31b5557d0" name="Changes" comment="cars detection">
+    <list default="true" id="1212a300-257d-4102-b39a-7ae31b5557d0" name="Changes" comment="detect crossing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "Python.car_manager.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.scoreboard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -93,13 +95,22 @@
       <option name="project" value="LOCAL" />
       <updated>1740718559187</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="detect crossing">
+      <option name="closed" value="true" />
+      <created>1740719261491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740719261491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
     <MESSAGE value="created the player and cars" />
     <MESSAGE value="cars detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="cars detection" />
+    <MESSAGE value="detect crossing" />
+    <option name="LAST_COMMIT_MESSAGE" value="detect crossing" />
   </component>
 </project>

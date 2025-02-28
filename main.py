@@ -11,6 +11,7 @@ screen.tracer(0)
 
 player = Player()
 car = CarManager()
+scoreboard = Scoreboard()
 
 
 screen.listen()
@@ -24,13 +25,18 @@ while game_is_on:
 
     car.create_car()
     car.move_cars()
+    scoreboard.write_level()
 
 #     Detect collision with car
     for one_car in car.all_cars:
         if one_car.distance(player) < 20:
             game_is_on = False
+            scoreboard.game_over()
 
 # Detect a successful crossing
     if player.is_at_finish_line():
         player.go_to_start()
+        car.leve_up()
+        scoreboard.increase_level()
 
+screen.exitonclick()

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1212a300-257d-4102-b39a-7ae31b5557d0" name="Changes" comment="created the player and cars">
+    <list default="true" id="1212a300-257d-4102-b39a-7ae31b5557d0" name="Changes" comment="cars detection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740716754226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cars detection">
+      <option name="closed" value="true" />
+      <created>1740718559187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740718559187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
     <MESSAGE value="created the player and cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the player and cars" />
+    <MESSAGE value="cars detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="cars detection" />
   </component>
 </project>
